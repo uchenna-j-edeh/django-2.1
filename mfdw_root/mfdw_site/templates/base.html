@@ -4,9 +4,9 @@
 <head>
 <meta charset="utf-8">
 <title>
-{% block title %}
-Untitled Document
-{% endblock title %}
+  {% block title %}
+    Untitled Document
+  {% endblock title %}
 </title>
 <link href="{% static 'main.css' %}" rel="stylesheet" type="text/css">
 </head>
@@ -22,6 +22,7 @@ Untitled Document
       {% block sidenav %}
       <li>Menu 1</li><li>Menu 2</li><li>Menu 3</li>
       {% endblock sidenav %}
+      <li><a href="/contact">Contact Us</a></li>
     </ul>
     </nav>
   </aside>
@@ -35,4 +36,3 @@ Untitled Document
 </div>
 </body>
 </html>
-
